@@ -14,7 +14,7 @@ app.use(cors({
 }));
 app.use(express.json());
 
-const mongoURI = "mongodb+srv://Bharath:bharath123@cluster0.4tbfg.mongodb.net/E-commerce?retryWrites=true&w=majority";
+const  mongoURI = "mongodb+srv://elitewalkuser:Elite@cluster0.vuducj4.mongodb.net/elitewalk?retryWrites=true&w=majority";
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
